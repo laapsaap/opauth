@@ -12,7 +12,7 @@ What is Opauth?
 ---------------
 Opauth provides a standardized method for PHP applications to interface with authentication providers.
 
-Opauth as a framework provides a set of API that allows developers to [create strategies](https://github.com/uzyn/opauth/wiki/Strategy-Contribution-Guide) that work in a predictable manner across PHP frameworks and applications.
+Opauth as a framework provides a set of API that allows developers to [create strategies](https://github.com/opauth/opauth/wiki/Strategy-Contribution-Guide) that work in a predictable manner across PHP frameworks and applications.
 
 Opauth works well with other PHP applications & frameworks. It is currently supported on:
 
@@ -45,7 +45,7 @@ Guide on how to run the bundled example.
 
    Open up `opauth.conf.php` and make the necessary changes.
 
-3. Install some [Opauth strategies](https://github.com/uzyn/opauth/wiki/List-of-strategies).
+3. Install some [Opauth strategies](https://github.com/opauth/opauth/wiki/List-of-strategies).
    Place the strategy files in `lib/Opauth/Strategy/`.
 
    For this example, we recommend that you start with [Opauth-Facebook](https://github.com/uzyn/opauth-facebook):
@@ -71,7 +71,7 @@ Guide on how to run the bundled example.
 Finally, send user to `http://localhost/facebook` to authenticate.
 
 
-Check out [the wiki](https://github.com/uzyn/opauth/wiki) for more in-depth details, especially on how to use Opauth with your own PHP application.
+Check out [the wiki](https://github.com/opauth/opauth/wiki) for more in-depth details, especially on how to use Opauth with your own PHP application.
 
 Available strategies
 --------------------
@@ -156,7 +156,7 @@ Provider-specific:
 </tr>
 <tr>
 	<td><img src="http://g.etfv.co/http://weibo.com" alt="Sina Weibo" width="16">&nbsp;&nbsp;
-		<a href="https://github.com/dgrabla/opauth-sinaweibo">Sina Weibo (新浪微博)</a></td>
+		<a href="https://github.com/dgrabla/opauth-sinaweibo">Sina Weibo (????)</a></td>
 	<td>dgrabla</td>
 </tr>
 <tr>
@@ -184,8 +184,8 @@ Provider-specific:
 
 Generic strategy: [OAuth](https://github.com/uzyn/opauth-oauth)
 
-See [wiki's list of strategies](https://github.com/uzyn/opauth/wiki/List-of-strategies) for an updated list of Opauth strategies or to make requests.
-Refer also to [strategy contribution guide](https://github.com/uzyn/opauth/wiki/Strategy-contribution-guide) if you would like to contribute a strategy.
+See [wiki's list of strategies](https://github.com/opauth/opauth/wiki/List-of-strategies) for an updated list of Opauth strategies or to make requests.
+Refer also to [strategy contribution guide](https://github.com/opauth/opauth/wiki/Strategy-contribution-guide) if you would like to contribute a strategy.
 
 Requirements
 -------------
@@ -197,7 +197,7 @@ Contribute
 Opauth needs your contributions, especially the following:
 
 - More strategies
-  Refer to [wiki](https://github.com/uzyn/opauth/wiki) for contribution guide and inform us when your work is ready.
+  Refer to [wiki](https://github.com/opauth/opauth/wiki) for contribution guide and inform us when your work is ready.
 
 - Plugins for more PHP frameworks and CMSes
   eg. Symfony, Laravel, WordPress, Drupal, etc.
